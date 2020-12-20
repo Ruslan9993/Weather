@@ -4,7 +4,7 @@ export const APIKEY = '7e974f5b6007509e9668715d15b66790';
 export const city = '';
 
 export const URL = `api.openweathermap.org/data/2.5/forecast/daily?q=${city}&cnt=4&appid=${APIKEY}`;
-export const url = 'http://api.openweathermap.org/data/2.5/weather?q=';
+export const url = 'https://api.openweathermap.org/data/2.5/weather?q=';
 export const rest = `&appid=${APIKEY}&units=imperial`;
 export const getCity = async(city) => {
   try {
